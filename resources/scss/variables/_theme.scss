@@ -1,0 +1,49 @@
+@mixin defaultScheme {
+    // Colors
+    --ci-blue: #439FDE;
+    --ci-blue-light: #5da9de;
+    --ci-blue-accent: #afccde;
+  
+    --ci-yellow: #F7B92B;
+    --ci-yellow-light: #fac04e;
+    --ci-yellow-accent: #f3d6a0;
+  
+    --ci-green: #77B636;
+    --ci-green-light: #84c256;
+    --ci-green-accent: #e1f1d4;
+  
+    --ci-red: #e01063;
+    --ci-red-light: #e03f79;
+    --ci-red-accent: #f9dbe5;
+  
+    --ci-gray-light: #666666;
+    --ci-gray-medium: #4C4C4C;
+    --ci-gray-dark: #333333;
+  
+    --gray-muted: #B0B0B0;
+  
+    --bg-main: #fff;
+    --color-main: var(--ci-gray-light);
+    --color-inverse: #fff;
+    --color-link: var(--ci-blue);
+    --color-link-hover: #2f84b7;
+    --bg-menu-hover: #e2e2e2;
+  
+    --bg-container: #f9f9f9;
+    --bg-box: var(--bg-container);
+  
+    // Dimensions
+    --header-height: 50px;
+    --menu-width: 300px;
+    @screen md {
+      --header-height: 70px;
+    }
+  
+    // Fonts
+    --font-family: "Roboto", sans-serif;
+  }
+  
+  :root {
+    @include defaultScheme;
+  }
+  

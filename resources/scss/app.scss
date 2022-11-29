@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Vars
+@import "variables/theme";
+@import "variables/fonts";
+
+// Main styles
+@import "main";
